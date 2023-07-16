@@ -12,7 +12,7 @@ def calculate_sha256(url):
     return sha256_hash
 
 def upload_file():
-    vtotal_api_key = "1940a218ac7fe12e4503aef34a8d99c4dfa70b17fa85601a31ed46dfc08b3543"
+    vtotal_api_key = "VIRUS_TOTAL_API_KEY"
     v_url = file_entry.get()
 
     # Calculate SHA-256 hash of the URL
